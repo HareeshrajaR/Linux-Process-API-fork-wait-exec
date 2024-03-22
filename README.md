@@ -38,7 +38,7 @@ int main(void)
 	p_process_id = getppid();
 	//printing the process ids
 
-//printing the process ids
+
 	printf("The process id: %d\n",process_id);
 	printf("The process id of parent function: %d\n",p_process_id);
 	return 0; }
@@ -80,7 +80,7 @@ exit(0);}
 
 
 
-//C Program to execute Linux system commands using Linux API system calls exec() family
+
 ```
 #include <stdlib.h>
 #include <sys/wait.h>
